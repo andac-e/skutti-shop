@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export const TopLogo = () => {
   return (
     <motion.a
-      className="m-auto pointer-events-auto"
+      className="m-auto pointer-events-auto py-3"
       href="https://www.instagram.com/skutti_shop"
       target="_blank"
       animate={{ scale: 1.1 }}
@@ -11,7 +11,7 @@ export const TopLogo = () => {
       whileHover={{ scale: 1.2 }}
       whileTap={{ scale: 0.9 }}
     >
-      <img src="/images/logo.png" className="w-48 md:w-80" />
+      <img src="/images/logo.png" className="w-48 md:w-64" />
     </motion.a>
   );
 };
