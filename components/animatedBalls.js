@@ -25,7 +25,7 @@ const AnimatedBalls = () => {
     (props, prevProps) => true
   );
   return (
-    <div className="w-72 md:w-1/2 lg:w-2/5 opacity-95 h-48 relative z-10 shadow-md antialiased overflow-hidden bg-cover bg-[url('/bg-1.jpg')] rounded-3xl m-auto animate-fade -top-24">
+    <div className="w-72 md:w-1/2 lg:w-2/5 opacity-95 h-48 relative z-10 shadow-md overflow-hidden bg-cover bg-[url('/bg-1.jpg')] rounded-3xl m-auto animate-fade -top-24">
       <div className="top-1/3 font-bold text-2xl mt-4 text-center opacity-100 absolute inset-0 md:text-4xl text-transparent bg-gradient-to-r from-violet-400 via-sky-400 to-purple-400 bg-clip-text">
         <TypingAnimation />
       </div>
