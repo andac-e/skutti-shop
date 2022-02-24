@@ -16,8 +16,6 @@ const AnimatedBalls = () => {
             2000,
             "demnächst...",
             2000,
-            "prossimamente...",
-            2000,
             "çok yakında...",
             2000,
           ]}
