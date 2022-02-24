@@ -11,7 +11,7 @@ export const TopLogo = () => {
       whileHover={{ scale: 1.2 }}
       whileTap={{ scale: 0.9 }}
     >
-      <img src="/images/logo.png" className="w-48 md:w-64" />
+      <img src="/images/logo.png" className="w-48 md:w-80" />
     </motion.a>
   );
 };
