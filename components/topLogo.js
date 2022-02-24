@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export const TopLogo = () => {
   return (
     <motion.a
-      className="mx-auto py-20 pointer-events-auto"
+      className="m-auto pointer-events-auto"
       href="https://www.instagram.com/skutti_shop"
       target="_blank"
       animate={{ scale: 1.1 }}
