@@ -11,7 +11,9 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="Skutti scooter shop" />
         <meta property="og:locale" content="tr_TR" />
       </Head>
-      <Component {...pageProps} />
+      <main>
+        <Component {...pageProps} />
+      </main>
     </div>
   );
 }
