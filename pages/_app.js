@@ -8,8 +8,8 @@ function MyApp({ Component, pageProps }) {
         <title>Skutti scooter shop 🛴</title>
         <link rel="shortcut icon" href="/static/favicon.ico" />
         <meta name="description" content="Skutti scooter shop 🛴" />
-        <meta property="og:site_name" content="Skutti scooter shop" />
         <meta property="og:title" content="Skutti scooter shop" />
+        <meta property="og:locale" content="tr_TR" />
       </Head>
       <Component {...pageProps} />
     </div>
